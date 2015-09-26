@@ -9,6 +9,10 @@
 #import "AppDelegate.h"
 #import "DetailViewController.h"
 #import <RestKit/RestKit.h>
+#import <GoogleMaps/GoogleMaps.h>
+#import "DetailViewController.h"
+#import "MasterViewController.h"
+
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -18,11 +22,26 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
     // Override point for customization after application launch.
     UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
     splitViewController.delegate = self;
+    
+    [GMSServices provideAPIKey:@"AIzaSyB7c8Iybgg1kzs9CdYLLjk44eExVUCcyKY"];
+    
+    
+    MasterViewController *firstVC = [[MasterViewController alloc] init];
+    DetailViewController* secondVC = [[DetailViewController alloc] init];
+    
+    UISplitViewController* splitVC = [[UISplitViewController alloc] init];
+    splitVC.viewControllers = [NSArray arrayWithObjects:firstVC, secondVC, nil];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = splitVC;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

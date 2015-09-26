@@ -7,8 +7,12 @@
 //
 
 #import "DetailViewController.h"
+#import <GoogleMaps/GoogleMaps.h>
+
 
 @interface DetailViewController ()
+
+@property (strong, nonatomic) GMSMapView *mapView;
 
 @end
 
@@ -27,14 +31,23 @@
 
 - (void)configureView {
     // Update the user interface for the detail item.
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
-    }
+//    if (self.detailItem) {
+//        self.detailDescriptionLabel.text = [self.detailItem description];
+//    }
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    //self.mapView = [GMSMapView mapWithFrame:self.view.bounds camera:camera];
+    self.mapView.mapType = kGMSTypeNormal;
+    self.mapView.myLocationEnabled = YES;
+    self.mapView.settings.compassButton = YES;
+    self.mapView.settings.myLocationButton = YES;
+    
+    
+    [self.view addSubview:self.mapView];
+    
     [self configureView];
 }
 
