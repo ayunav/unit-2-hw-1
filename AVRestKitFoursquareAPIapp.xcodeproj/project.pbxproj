@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		292500721BB42A2B0046AD96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 292500711BB42A2B0046AD96 /* main.m */; };
+		292500751BB42A2B0046AD96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 292500741BB42A2B0046AD96 /* AppDelegate.m */; };
+		292500781BB42A2B0046AD96 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 292500771BB42A2B0046AD96 /* MasterViewController.m */; };
+		2925007B1BB42A2B0046AD96 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2925007A1BB42A2B0046AD96 /* DetailViewController.m */; };
+		2925007E1BB42A2B0046AD96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2925007C1BB42A2B0046AD96 /* Main.storyboard */; };
+		292500801BB42A2B0046AD96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2925007F1BB42A2B0046AD96 /* Assets.xcassets */; };
+		292500831BB42A2B0046AD96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 292500811BB42A2B0046AD96 /* LaunchScreen.storyboard */; };
+		2925008E1BB42A2B0046AD96 /* AVRestKitFoursquareAPIappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2925008D1BB42A2B0046AD96 /* AVRestKitFoursquareAPIappTests.m */; };
+		292500991BB42A2C0046AD96 /* AVRestKitFoursquareAPIappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 292500981BB42A2C0046AD96 /* AVRestKitFoursquareAPIappUITests.m */; };
+		292500A71BB436AF0046AD96 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 292500A61BB436AF0046AD96 /* libRestKit.a */; };
+		292500A91BB436EE0046AD96 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292500A81BB436EE0046AD96 /* CFNetwork.framework */; };
+		292500AE1BB4371D0046AD96 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292500AA1BB4371D0046AD96 /* CoreData.framework */; };
+		292500AF1BB4371D0046AD96 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292500AB1BB4371D0046AD96 /* MobileCoreServices.framework */; };
+		292500B01BB4371D0046AD96 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292500AC1BB4371D0046AD96 /* Security.framework */; };
+		292500B11BB4371D0046AD96 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292500AD1BB4371D0046AD96 /* SystemConfiguration.framework */; };
+		292500B41BB43A650046AD96 /* AVVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 292500B31BB43A650046AD96 /* AVVenue.m */; settings = {ASSET_TAGS = (); }; };
+		2925016B1BB6410C0046AD96 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 2925016A1BB6410C0046AD96 /* Location.m */; settings = {ASSET_TAGS = (); }; };
+		2925016E1BB647EA0046AD96 /* VenueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2925016D1BB647EA0046AD96 /* VenueCell.m */; settings = {ASSET_TAGS = (); }; };
+		292501711BB649400046AD96 /* Stats.m in Sources */ = {isa = PBXBuildFile; fileRef = 292501701BB649400046AD96 /* Stats.m */; settings = {ASSET_TAGS = (); }; };
+		520D00988A1AF4D3E80FDC41 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8255C1A1ACF5F9CB324D142 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2925008A1BB42A2B0046AD96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292500651BB42A2B0046AD96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2925006C1BB42A2B0046AD96;
+			remoteInfo = AVRestKitFoursquareAPIapp;
+		};
+		292500951BB42A2B0046AD96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292500651BB42A2B0046AD96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2925006C1BB42A2B0046AD96;
+			remoteInfo = AVRestKitFoursquareAPIapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2925006D1BB42A2B0046AD96 /* AVRestKitFoursquareAPIapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVRestKitFoursquareAPIapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		292500711BB42A2B0046AD96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		292500731BB42A2B0046AD96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		292500741BB42A2B0046AD96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		292500761BB42A2B0046AD96 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		292500771BB42A2B0046AD96 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		292500791BB42A2B0046AD96 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2925007A1BB42A2B0046AD96 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2925007D1BB42A2B0046AD96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2925007F1BB42A2B0046AD96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		292500821BB42A2B0046AD96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		292500841BB42A2B0046AD96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292500891BB42A2B0046AD96 /* AVRestKitFoursquareAPIappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVRestKitFoursquareAPIappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2925008D1BB42A2B0046AD96 /* AVRestKitFoursquareAPIappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVRestKitFoursquareAPIappTests.m; sourceTree = "<group>"; };
+		2925008F1BB42A2B0046AD96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292500941BB42A2B0046AD96 /* AVRestKitFoursquareAPIappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVRestKitFoursquareAPIappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		292500981BB42A2C0046AD96 /* AVRestKitFoursquareAPIappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVRestKitFoursquareAPIappUITests.m; sourceTree = "<group>"; };
+		2925009A1BB42A2C0046AD96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292500A61BB436AF0046AD96 /* libRestKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRestKit.a; path = "Pods/../build/Debug-iphoneos/libRestKit.a"; sourceTree = "<group>"; };
+		292500A81BB436EE0046AD96 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		292500AA1BB4371D0046AD96 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		292500AB1BB4371D0046AD96 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		292500AC1BB4371D0046AD96 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		292500AD1BB4371D0046AD96 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		292500B21BB43A650046AD96 /* AVVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVVenue.h; sourceTree = "<group>"; };
+		292500B31BB43A650046AD96 /* AVVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVVenue.m; sourceTree = "<group>"; };
+		292501691BB6410C0046AD96 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		2925016A1BB6410C0046AD96 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		2925016C1BB647EA0046AD96 /* VenueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueCell.h; sourceTree = "<group>"; };
+		2925016D1BB647EA0046AD96 /* VenueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueCell.m; sourceTree = "<group>"; };
+		2925016F1BB649400046AD96 /* Stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stats.h; sourceTree = "<group>"; };
+		292501701BB649400046AD96 /* Stats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stats.m; sourceTree = "<group>"; };
+		8D802DE2785FC413B8FA08B8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E670B424D98ECF32883C2062 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E8255C1A1ACF5F9CB324D142 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2925006A1BB42A2B0046AD96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292500AE1BB4371D0046AD96 /* CoreData.framework in Frameworks */,
+				292500AF1BB4371D0046AD96 /* MobileCoreServices.framework in Frameworks */,
+				292500B01BB4371D0046AD96 /* Security.framework in Frameworks */,
+				292500B11BB4371D0046AD96 /* SystemConfiguration.framework in Frameworks */,
+				292500A91BB436EE0046AD96 /* CFNetwork.framework in Frameworks */,
+				292500A71BB436AF0046AD96 /* libRestKit.a in Frameworks */,
+				520D00988A1AF4D3E80FDC41 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292500861BB42A2B0046AD96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292500911BB42A2B0046AD96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		292500641BB42A2A0046AD96 = {
+			isa = PBXGroup;
+			children = (
+				2925006F1BB42A2B0046AD96 /* AVRestKitFoursquareAPIapp */,
+				2925008C1BB42A2B0046AD96 /* AVRestKitFoursquareAPIappTests */,
+				292500971BB42A2C0046AD96 /* AVRestKitFoursquareAPIappUITests */,
+				2925006E1BB42A2B0046AD96 /* Products */,
+				D0D26AEA08620C7CAB475C35 /* Pods */,
+				EBD0E29FE910A52085A0933E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2925006E1BB42A2B0046AD96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2925006D1BB42A2B0046AD96 /* AVRestKitFoursquareAPIapp.app */,
+				292500891BB42A2B0046AD96 /* AVRestKitFoursquareAPIappTests.xctest */,
+				292500941BB42A2B0046AD96 /* AVRestKitFoursquareAPIappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2925006F1BB42A2B0046AD96 /* AVRestKitFoursquareAPIapp */ = {
+			isa = PBXGroup;
+			children = (
+				2925007C1BB42A2B0046AD96 /* Main.storyboard */,
+				292500731BB42A2B0046AD96 /* AppDelegate.h */,
+				292500741BB42A2B0046AD96 /* AppDelegate.m */,
+				292500B21BB43A650046AD96 /* AVVenue.h */,
+				292500B31BB43A650046AD96 /* AVVenue.m */,
+				292501691BB6410C0046AD96 /* Location.h */,
+				2925016A1BB6410C0046AD96 /* Location.m */,
+				2925016F1BB649400046AD96 /* Stats.h */,
+				292501701BB649400046AD96 /* Stats.m */,
+				2925016C1BB647EA0046AD96 /* VenueCell.h */,
+				2925016D1BB647EA0046AD96 /* VenueCell.m */,
+				292500761BB42A2B0046AD96 /* MasterViewController.h */,
+				292500771BB42A2B0046AD96 /* MasterViewController.m */,
+				292500791BB42A2B0046AD96 /* DetailViewController.h */,
+				2925007A1BB42A2B0046AD96 /* DetailViewController.m */,
+				2925007F1BB42A2B0046AD96 /* Assets.xcassets */,
+				292500811BB42A2B0046AD96 /* LaunchScreen.storyboard */,
+				292500841BB42A2B0046AD96 /* Info.plist */,
+				292500701BB42A2B0046AD96 /* Supporting Files */,
+			);
+			path = AVRestKitFoursquareAPIapp;
+			sourceTree = "<group>";
+		};
+		292500701BB42A2B0046AD96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				292500711BB42A2B0046AD96 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2925008C1BB42A2B0046AD96 /* AVRestKitFoursquareAPIappTests */ = {
+			isa = PBXGroup;
+			children = (
+				2925008D1BB42A2B0046AD96 /* AVRestKitFoursquareAPIappTests.m */,
+				2925008F1BB42A2B0046AD96 /* Info.plist */,
+			);
+			path = AVRestKitFoursquareAPIappTests;
+			sourceTree = "<group>";
+		};
+		292500971BB42A2C0046AD96 /* AVRestKitFoursquareAPIappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				292500981BB42A2C0046AD96 /* AVRestKitFoursquareAPIappUITests.m */,
+				2925009A1BB42A2C0046AD96 /* Info.plist */,
+			);
+			path = AVRestKitFoursquareAPIappUITests;
+			sourceTree = "<group>";
+		};
+		D0D26AEA08620C7CAB475C35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E670B424D98ECF32883C2062 /* Pods.debug.xcconfig */,
+				8D802DE2785FC413B8FA08B8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBD0E29FE910A52085A0933E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				292500AA1BB4371D0046AD96 /* CoreData.framework */,
+				292500AB1BB4371D0046AD96 /* MobileCoreServices.framework */,
+				292500AC1BB4371D0046AD96 /* Security.framework */,
+				292500AD1BB4371D0046AD96 /* SystemConfiguration.framework */,
+				292500A81BB436EE0046AD96 /* CFNetwork.framework */,
+				292500A61BB436AF0046AD96 /* libRestKit.a */,
+				E8255C1A1ACF5F9CB324D142 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2925006C1BB42A2B0046AD96 /* AVRestKitFoursquareAPIapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2925009D1BB42A2C0046AD96 /* Build configuration list for PBXNativeTarget "AVRestKitFoursquareAPIapp" */;
+			buildPhases = (
+				760CCCC3F9292230EB2A2123 /* Check Pods Manifest.lock */,
+				292500691BB42A2B0046AD96 /* Sources */,
+				2925006A1BB42A2B0046AD96 /* Frameworks */,
+				2925006B1BB42A2B0046AD96 /* Resources */,
+				5AE4E960AEBCD0A0C25EC303 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVRestKitFoursquareAPIapp;
+			productName = AVRestKitFoursquareAPIapp;
+			productReference = 2925006D1BB42A2B0046AD96 /* AVRestKitFoursquareAPIapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		292500881BB42A2B0046AD96 /* AVRestKitFoursquareAPIappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292500A01BB42A2C0046AD96 /* Build configuration list for PBXNativeTarget "AVRestKitFoursquareAPIappTests" */;
+			buildPhases = (
+				292500851BB42A2B0046AD96 /* Sources */,
+				292500861BB42A2B0046AD96 /* Frameworks */,
+				292500871BB42A2B0046AD96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2925008B1BB42A2B0046AD96 /* PBXTargetDependency */,
+			);
+			name = AVRestKitFoursquareAPIappTests;
+			productName = AVRestKitFoursquareAPIappTests;
+			productReference = 292500891BB42A2B0046AD96 /* AVRestKitFoursquareAPIappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		292500931BB42A2B0046AD96 /* AVRestKitFoursquareAPIappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292500A31BB42A2C0046AD96 /* Build configuration list for PBXNativeTarget "AVRestKitFoursquareAPIappUITests" */;
+			buildPhases = (
+				292500901BB42A2B0046AD96 /* Sources */,
+				292500911BB42A2B0046AD96 /* Frameworks */,
+				292500921BB42A2B0046AD96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				292500961BB42A2B0046AD96 /* PBXTargetDependency */,
+			);
+			name = AVRestKitFoursquareAPIappUITests;
+			productName = AVRestKitFoursquareAPIappUITests;
+			productReference = 292500941BB42A2B0046AD96 /* AVRestKitFoursquareAPIappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		292500651BB42A2B0046AD96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ayuna Vogel";
+				TargetAttributes = {
+					2925006C1BB42A2B0046AD96 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = N48NM3R37Q;
+					};
+					292500881BB42A2B0046AD96 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = N48NM3R37Q;
+						TestTargetID = 2925006C1BB42A2B0046AD96;
+					};
+					292500931BB42A2B0046AD96 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = N48NM3R37Q;
+						TestTargetID = 2925006C1BB42A2B0046AD96;
+					};
+				};
+			};
+			buildConfigurationList = 292500681BB42A2B0046AD96 /* Build configuration list for PBXProject "AVRestKitFoursquareAPIapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 292500641BB42A2A0046AD96;
+			productRefGroup = 2925006E1BB42A2B0046AD96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2925006C1BB42A2B0046AD96 /* AVRestKitFoursquareAPIapp */,
+				292500881BB42A2B0046AD96 /* AVRestKitFoursquareAPIappTests */,
+				292500931BB42A2B0046AD96 /* AVRestKitFoursquareAPIappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2925006B1BB42A2B0046AD96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292500831BB42A2B0046AD96 /* LaunchScreen.storyboard in Resources */,
+				292500801BB42A2B0046AD96 /* Assets.xcassets in Resources */,
+				2925007E1BB42A2B0046AD96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292500871BB42A2B0046AD96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292500921BB42A2B0046AD96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AE4E960AEBCD0A0C25EC303 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		760CCCC3F9292230EB2A2123 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		292500691BB42A2B0046AD96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292500B41BB43A650046AD96 /* AVVenue.m in Sources */,
+				292501711BB649400046AD96 /* Stats.m in Sources */,
+				292500751BB42A2B0046AD96 /* AppDelegate.m in Sources */,
+				292500781BB42A2B0046AD96 /* MasterViewController.m in Sources */,
+				292500721BB42A2B0046AD96 /* main.m in Sources */,
+				2925016B1BB6410C0046AD96 /* Location.m in Sources */,
+				2925007B1BB42A2B0046AD96 /* DetailViewController.m in Sources */,
+				2925016E1BB647EA0046AD96 /* VenueCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292500851BB42A2B0046AD96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2925008E1BB42A2B0046AD96 /* AVRestKitFoursquareAPIappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292500901BB42A2B0046AD96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292500991BB42A2C0046AD96 /* AVRestKitFoursquareAPIappUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2925008B1BB42A2B0046AD96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2925006C1BB42A2B0046AD96 /* AVRestKitFoursquareAPIapp */;
+			targetProxy = 2925008A1BB42A2B0046AD96 /* PBXContainerItemProxy */;
+		};
+		292500961BB42A2B0046AD96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2925006C1BB42A2B0046AD96 /* AVRestKitFoursquareAPIapp */;
+			targetProxy = 292500951BB42A2B0046AD96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2925007C1BB42A2B0046AD96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2925007D1BB42A2B0046AD96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		292500811BB42A2B0046AD96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292500821BB42A2B0046AD96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2925009B1BB42A2C0046AD96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2925009C1BB42A2C0046AD96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2925009E1BB42A2C0046AD96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E670B424D98ECF32883C2062 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AVRestKitFoursquareAPIapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayunavogel.AVRestKitFoursquareAPIapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2925009F1BB42A2C0046AD96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D802DE2785FC413B8FA08B8 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AVRestKitFoursquareAPIapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayunavogel.AVRestKitFoursquareAPIapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		292500A11BB42A2C0046AD96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AVRestKitFoursquareAPIappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayunavogel.AVRestKitFoursquareAPIappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVRestKitFoursquareAPIapp.app/AVRestKitFoursquareAPIapp";
+			};
+			name = Debug;
+		};
+		292500A21BB42A2C0046AD96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AVRestKitFoursquareAPIappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayunavogel.AVRestKitFoursquareAPIappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVRestKitFoursquareAPIapp.app/AVRestKitFoursquareAPIapp";
+			};
+			name = Release;
+		};
+		292500A41BB42A2C0046AD96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AVRestKitFoursquareAPIappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayunavogel.AVRestKitFoursquareAPIappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AVRestKitFoursquareAPIapp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		292500A51BB42A2C0046AD96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AVRestKitFoursquareAPIappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayunavogel.AVRestKitFoursquareAPIappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AVRestKitFoursquareAPIapp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		292500681BB42A2B0046AD96 /* Build configuration list for PBXProject "AVRestKitFoursquareAPIapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2925009B1BB42A2C0046AD96 /* Debug */,
+				2925009C1BB42A2C0046AD96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2925009D1BB42A2C0046AD96 /* Build configuration list for PBXNativeTarget "AVRestKitFoursquareAPIapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2925009E1BB42A2C0046AD96 /* Debug */,
+				2925009F1BB42A2C0046AD96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292500A01BB42A2C0046AD96 /* Build configuration list for PBXNativeTarget "AVRestKitFoursquareAPIappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292500A11BB42A2C0046AD96 /* Debug */,
+				292500A21BB42A2C0046AD96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292500A31BB42A2C0046AD96 /* Build configuration list for PBXNativeTarget "AVRestKitFoursquareAPIappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292500A41BB42A2C0046AD96 /* Debug */,
+				292500A51BB42A2C0046AD96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 292500651BB42A2B0046AD96 /* Project object */;
+}
